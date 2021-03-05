@@ -2,7 +2,22 @@
   "name": "stream-throttler",
   "version": "1.0.0",
   "description": "A NodeJS passthrough stream that throttles the stream at a specified bps",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./src/index.ts",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "publish": "git push --tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/larsvinter/stream-throttler"
+  },
   "author": "Lars Vinter",
-  "license": "MIT"
+  "license": "MIT",
+  "sideEffects": false,
+  "dependencies": {
+    "@types/node": "^14.14.31",
+    "typescript": "^4.2.3"
+  }
 }
