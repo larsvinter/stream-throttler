@@ -9,5 +9,5 @@ You can pass an `options` Object with a `bps` value specified along with
 other options:
 
 ```js
-const t = new Throttler({ bps: 100 * 1024 });
+const t = new Throttler({ bps: 16 * 1024 * 1024 });
 ```
