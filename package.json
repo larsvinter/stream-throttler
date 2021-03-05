@@ -1,0 +1,8 @@
+{
+  "name": "stream-throttler",
+  "version": "1.0.0",
+  "description": "A NodeJS passthrough stream that throttles the stream at a specified bps",
+  "main": "index.js",
+  "author": "Lars Vinter",
+  "license": "MIT"
+}
