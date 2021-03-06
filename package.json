@@ -1,6 +1,6 @@
 {
   "name": "stream-throttler",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A NodeJS passthrough stream that throttles the stream at a specified bps",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

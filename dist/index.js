@@ -13,9 +13,8 @@ var __classPrivateFieldGet = (this && this.__classPrivateFieldGet) || function (
     return privateMap.get(receiver);
 };
 var _totalBytes, _startTime;
-Object.defineProperty(exports, "__esModule", { value: true });
-const stream_1 = require("stream");
-class Throttler extends stream_1.PassThrough {
+import { PassThrough } from "stream";
+class Throttler extends PassThrough {
     constructor(opts) {
         super(opts);
         _totalBytes.set(this, void 0);
@@ -46,4 +45,4 @@ class Throttler extends stream_1.PassThrough {
     }
 }
 _totalBytes = new WeakMap(), _startTime = new WeakMap();
-exports.default = Throttler;
+export default Throttler;
