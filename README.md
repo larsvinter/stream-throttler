@@ -1,6 +1,6 @@
 The `StreamThrottler` class extends Nodejs PassThrough stream.
 It is quite similar, however allows you to specify a `bps` "bytes per
-second" option cause data to be restricted to this rate.
+second" option causing data to be restricted to this rate.
 
 ## Install
 
