@@ -42,4 +42,4 @@ class Throttler extends PassThrough {
   }
 }
 
-export default Throttler;
+export default Throttler
